@@ -1,9 +1,32 @@
-*{
+* {
   box-sizing: border-box;
 }
 
-body{
+body {
   background-color: #111;
   color: #fff;
   margin: 0;
+}
+
+.list {
+  margin-top: -100px;
+}
+
+footer {
+  margin: 50px 0;
+  text-align: center;
+}
+
+.loading {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100hv;
 }
